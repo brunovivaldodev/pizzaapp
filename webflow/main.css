@@ -1,0 +1,49 @@
+body {
+    display: flex;
+}
+
+aside.menu {
+    height: 100vh;
+    width: 270px;
+}
+
+aside.menu h1 img{
+    margin: auto;
+}
+
+aside.menu nav div{
+    display: flex;
+}
+
+
+aside.menu nav div:hover{
+    background-color: rgba(67, 83, 255, 0.3);
+}
+
+
+aside.menu nav div img{
+    margin:0 30px ;
+}
+
+aside.menu nav div.wrapper{
+    display: flex;
+    align-items: center;
+}
+aside.menu nav div.wrapper img{
+    width: 30px;
+    height: 30px;
+    margin-left: 28px;
+    justify-content: center;
+}
+
+aside.menu nav div.wrapper a{
+    text-decoration: none;
+}
+
+aside.menu nav div.wrapper p{
+    margin-right: 40px;
+}
+
+main nav{
+    display: flex;
+}
